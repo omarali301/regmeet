@@ -1,0 +1,8 @@
+.recommendedPage {
+    width: 25%;
+    height: 80%;
+}
+
+.pages:hover {
+    background-color: rgb(172, 198, 247);
+}
