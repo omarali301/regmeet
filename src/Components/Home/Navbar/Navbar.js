@@ -8,7 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Navbar.css";
-import profileImage from "../../../Images/profile-image.jpg";
+// import profileImage from "../../../Images/profile-image.jpg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -56,11 +56,11 @@ const Navbar = () => {
           icon={faSearch}
         />
       </div>
-      <img
+      {/* <img
         className="roundImage pointer"
         src={profileImage}
         alt="protyasha roy"
-      />
+      /> */}
     </nav>
   );
 };

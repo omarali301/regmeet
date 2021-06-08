@@ -5,7 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import profileImage from "../../../../Images/profile-image.jpg";
+// import profileImage from "../../../../Images/profile-image.jpg";
 import "./PublishFeed.css";
 
 const PublishFeed = () => {
@@ -14,7 +14,7 @@ const PublishFeed = () => {
       <div>
         <h1 className="condensed text-cornBlue">Publish Your Feed</h1>
         <div className="d-flex align-center justify-evenly">
-          <img className="roundImage" src={profileImage} />
+          {/* <img className="roundImage" src={profileImage} /> */}
           <textarea
             placeholder="Write Your Feed..."
             className="textArea condensed br-none p-10 f-20"
